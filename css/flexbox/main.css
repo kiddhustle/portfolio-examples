@@ -30,8 +30,6 @@ body {
 }
 
 .pane-header h1 {
-    background: #1b1b1b;
-    color:#ffffff;
     padding: 5px 20px;
     margin:0px;
 }
@@ -46,6 +44,11 @@ body {
     flex:5;
 }
 
+.elements {
+	text-align:center;
+	overflow-y:scroll;
+	height:100%;
+}
 .action-bar {
     flex:1;
     display:inline-flex;
@@ -82,7 +85,7 @@ a {
 .pane-header h1,
 .button,
 #bg-colour-dark-grey {
-    background: #1b1b1b;
+    background: #555555;
     color:#ffffff;
 }
 
